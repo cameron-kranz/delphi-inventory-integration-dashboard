@@ -6,6 +6,12 @@
 A full-stack retail inventory management tool built to practice integrating a
 Windows desktop client with a REST API and SQL-backend.
 
+## Download
+
+Grab the latest compiled Windows client here: [**InventoryClient.exe (v1.0.0)**](https://github.com/cameron-kranz/delphi-inventory-integration-dashboard/releases/tag/v1.0.0)
+
+The API (`api/`) must be running locally first — see [Running the application](#running-the-application) below.
+
 ```
 Delphi VCL frontend
         │  HTTP (JSON)
