@@ -1,0 +1,17 @@
+# Node
+api/node_modules/
+api/db/inventory.db
+api/db/inventory.db-journal
+api/db/inventory.db-wal
+api/db/inventory.db-shm
+
+# Delphi build artifacts
+delphi-client/Win32/
+delphi-client/Win64/
+delphi-client/*.dcu
+delphi-client/*.exe
+delphi-client/*.identcache
+delphi-client/*.local
+delphi-client/*.tvsconfig
+delphi-client/__history/
+delphi-client/__recovery/

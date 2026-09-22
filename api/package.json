@@ -1,0 +1,22 @@
+{
+  "name": "inventory-integration-api",
+  "version": "1.0.0",
+  "description": "REST API backend for the Delphi Inventory Integration Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "inventory",
+    "rest-api",
+    "delphi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  }
+}

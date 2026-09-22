@@ -1,0 +1,4 @@
+sku,name,category,quantity,unit_price,supplier
+SKU-002,Bolt,Hardware,750,0.12,Acme Co
+SKU-004,Keyboard,Office,30,45.00,DeskCo
+SKU-005,Mouse Pad,Office,80,7.50,DeskCo
