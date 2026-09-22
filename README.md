@@ -6,22 +6,26 @@
 A full-stack retail inventory management tool built to practice integrating a
 Windows desktop client with a REST API and SQL-backend.
 
-Delphi VCL frontend 
-        | HTTP (JSON)
-        v
+```
+Delphi VCL frontend
+        │  HTTP (JSON)
+        ▼
 Node.js / Express REST API
-        | SQL
-        v
+        │  SQL
+        ▼
 SQLite database
+```
 
 ## Running the application
 
 Requires Node.js 18+.
 
 Copy In Terminal:
+```
 cd api 
 npm install 
-npm start 
+npm start
+```
 
 Then download and run the Inventory Integration App.exe file.
 
