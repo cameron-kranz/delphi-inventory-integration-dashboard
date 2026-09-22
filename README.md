@@ -12,16 +12,6 @@ Grab the latest compiled Windows client here: [**InventoryClient.exe (v1.0.0)**]
 
 The API (`api/`) must be running locally first — see [Running the application](#running-the-application) below.
 
-```
-Delphi VCL frontend
-        │  HTTP (JSON)
-        ▼
-Node.js / Express REST API
-        │  SQL
-        ▼
-SQLite database
-```
-
 ## Running the application
 
 Requires Node.js 18+.
@@ -60,9 +50,3 @@ Use the import button with the `sample-data/import_sample.csv` data to populate 
 | GET    | `/api/inventory/export`     | Download all inventory as CSV          
 | POST   | `/api/inventory/import`     | Upload a CSV to bulk create/update 
 
-## Sample data
-
-`sample-data/import_sample.csv` is provided to test the import feature. Its
-required columns are `sku`, `name`, `quantity`, `unit_price`; `category` and
-`supplier` are optional. Importing a SKU that already exists updates that
-row instead of creating a duplicate.
