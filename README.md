@@ -23,7 +23,7 @@ cd api
 npm install
 npm start
 
-Then run the Inventory Integration App.exe file.
+Then download and run the Inventory Integration App.exe file.
 
 ## Features
 
