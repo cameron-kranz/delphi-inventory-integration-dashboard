@@ -19,9 +19,9 @@ SQLite database
 Requires Node.js 18+.
 
 Copy In Terminal:
->> cd api
->> npm install
->> npm start
+cd api 
+npm install 
+npm start 
 
 Then download and run the Inventory Integration App.exe file.
 
