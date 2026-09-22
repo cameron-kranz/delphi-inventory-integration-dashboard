@@ -28,6 +28,7 @@ npm start
 ```
 
 Then download and run the Inventory Integration App.exe file.
+Use the import button with the `sample-data/import_sample.csv` data to populate the database
 
 ## Features
 
